@@ -1,0 +1,16 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout>
+        <ActionBar>
+            <ActionBar title="Cityhacks 2019" icon=""></ActionBar>
+        </ActionBar>
+
+        <StackLayout class="content">
+            <TextField hint="Email/username"/>
+            <TextView hint="Please enter your email" editable="true" />
+        </StackLayout>
+        <StackLayout>
+            <Button text="Login" tap="onSubmit" class="pressButton"/> 
+        </StackLayout>
+    </StackLayout>    
+</Page>
+ 
